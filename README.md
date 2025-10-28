@@ -2,41 +2,49 @@
 
 ![GuitarLA Screenshot](./src/assets/screenshot.png)
 
-GuitarLA es una aplicación web desarrollada con **Vue 3 + Vite** que simula una tienda online de guitarras eléctricas.  
-Incluye una página principal con un modelo destacado, una sección con el catálogo completo de guitarras y un sistema básico para agregar productos al carrito de compras.
+**GuitarLA** es una aplicación web moderna desarrollada con **Vue 3 + Vite**, que simula una tienda online de guitarras eléctricas y cursos musicales.  
+Cuenta con una interfaz limpia, rápida y totalmente responsive, donde los usuarios pueden explorar modelos de guitarras, ver precios y agregar productos al carrito de compras.
+
+🔗 **Demo en línea:** [https://guitarla-vuejslnl.netlify.app/](https://guitarla-vuejslnl.netlify.app/)
 
 ---
 
 ## 🚀 Tecnologías Utilizadas
 
-- ⚡ **Vite** – Entorno de desarrollo rápido y optimizado.  
-- 🧩 **Vue 3 (Composition API + `<script setup>`)** – Framework frontend moderno y reactivo.  
-- 🎨 **CSS / SCSS / Tailwind (opcional)** – Para el diseño visual responsivo y moderno.  
-- 🛒 **Vuex / Pinia (opcional)** – Para la gestión del estado global del carrito.
+- ⚡ **Vite** → Entorno de desarrollo rápido y optimizado.  
+- 🧩 **Vue 3 (Composition API + `<script setup>`)** → Framework frontend moderno y reactivo.  
+- 🎨 **CSS / SCSS / TailwindCSS** → Diseño visual moderno, adaptable y de alto rendimiento.  
+- 🛒 **Pinia / Vuex** → Gestión del estado del carrito de compras (opcional).  
+- 🖼️ **Netlify** → Despliegue y hosting de la aplicación.
+
+---
+
+## 🎯 Características Principales
+
+✅ Modelo destacado con información y precio resaltado.  
+✅ Sección de catálogo con imágenes, descripciones y precios.  
+✅ Botones funcionales **“Agregar al Carrito”**.  
+✅ Interfaz completamente responsive.  
+✅ Carga ultrarrápida gracias a **Vite**.  
+✅ Código modular y escalable con **Vue 3 Composition API**.  
 
 ---
 
 ## 📸 Vista Previa
 
 ### 🟠 Modelo Destacado
-Una sección superior donde se muestra el modelo **Lukather**, con su precio y botón de compra destacado.
+Sección superior que muestra el modelo **Lukather**, con su precio y botón de compra principal.
 
 ### 🖤 Nuestra Colección
-Listado de guitarras con nombre, descripción, imagen, precio y botón de **“Agregar al Carrito”**.  
-Cada tarjeta está cuidadosamente diseñada para mantener consistencia visual y un estilo profesional.
+Catálogo completo de guitarras, cada una con:
+- Imagen del producto  
+- Descripción breve  
+- Precio  
+- Botón **Agregar al carrito**
+
+Cada tarjeta mantiene un diseño visual coherente y profesional.
 
 ---
 
 ## 🧱 Estructura del Proyecto
 
-guitarla-vue/
-├── public/
-│ └── guitarras/ # Imágenes de las guitarras
-├── src/
-│ ├── assets/ # Recursos gráficos
-│ ├── components/ # Componentes Vue
-│ ├── pages/ # Vistas principales
-│ ├── App.vue # Componente raíz
-│ └── main.js # Punto de entrada del proyecto
-├── package.json
-└── vite.config.js
