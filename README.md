@@ -1,6 +1,5 @@
-# 🎸 GuitarLA - Tienda de Guitarras y Cursos
+# GuitarLA - Tienda de Guitarras
 
-![GuitarLA Screenshot](./src/assets/screenshot.png)
 
 **GuitarLA** es una aplicación web moderna desarrollada con **Vue 3 + Vite**, que simula una tienda online de guitarras eléctricas y cursos musicales.  
 Cuenta con una interfaz limpia, rápida y totalmente responsive, donde los usuarios pueden explorar modelos de guitarras, ver precios y agregar productos al carrito de compras.
@@ -46,5 +45,5 @@ Cada tarjeta mantiene un diseño visual coherente y profesional.
 
 ---
 
-## 🧱 Estructura del Proyecto
+
 
